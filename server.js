@@ -32,8 +32,7 @@ mongoose.Promise = global.Promise;
 // define a simple route
 app.get("/", (req, res) => {
   res.json({
-    message:
-      "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes.",
+    message: "Welcome to CI CD",
   });
 });
 
